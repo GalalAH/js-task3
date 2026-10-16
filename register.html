@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #f6f8ff;">
+    <div class="container mt-12 pt-5 ">
+
+        <div class="row">
+        <div class="md:col-6">
+           <img src="img/3123i2lmPiL._AC_SY780_.jpg" alt=" img" class="w-75  h-100">
+        </div>    
+        <div class="md:col-6 ">
+           <h2>Create Account</h2>
+         <h4 class="mt-4 mb-6 fg-secondary">Go ahead and sign up let everyone <br>
+        know how awesome we are!</h4>
+        <h5 id="result" ></h5>
+         <form onsubmit="return validateData()" action="success.html" method="post">
+
+            <input type="text" class="form-control p-4 mb-5" name="user" id="user" placeholder="User Name" >
+            <input type="text" class="form-control p-4 mb-5" name="email" id="email" placeholder="Email">
+            <input type="password" class="form-control p-4 mb-5" name="password" id="password" placeholder="Password">
+            <input type="password" class="form-control p-4 mb-5 " name="confirm" id="confirm" placeholder="Confirm Password">
+            <input type="submit" class="btn-solid theme-primary d-block w-100" value="Create New Account">
+         </form>
+
+
+        </div>
+
+        
+        </div>
+    
+    </div>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <!-- main.js -->
+ <script src="js/main.js"></script>
+</body>
+</html>
